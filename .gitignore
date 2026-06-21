@@ -1,0 +1,18 @@
+# Ignore the Python virtual environment folder
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore raw data files and extraction folders
+HDFS_1/
+HDFS.log
+HDFS
+*.tar.gz
+*.csv
+*.npy
+
+# Ignore Node.js packages inside the frontend dashboard
+dashboard/node_modules/
+dashboard/dist/
+.DS_Store
